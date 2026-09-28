@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="fr" class="scroll-smooth">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Guide Pratique Google Classroom - Formateurs Sénégal</title>
   
+  
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
-  
+  <html lang="fr" class="scroll-smooth">
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -50,7 +50,29 @@
 
   <!-- Ruban tricolore supérieur -->
   <div class="african-border-top sticky top-0 z-50 shadow-sm"></div>
+<!-- Nuova Intestazione Istituzionale (Loghi e Titolo Progetto) -->
+  <div class="bg-white py-4 px-4 sm:px-6 lg:px-8 shadow-sm relative z-40">
+    <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
+      
+      <!-- Logo Sinistra (MAECI) -->
+      <div class="w-full md:w-1/4 flex justify-center md:justify-start">
+        <img src="img/logo-maeci.png" alt="Ministero degli Affari Esteri e della Cooperazione Internazionale" class="h-16 sm:h-20 md:h-24 object-contain">
+      </div>
+      
+      <!-- Titolo Centrale -->
+      <div class="w-full md:w-2/4 text-center">
+        <h2 class="text-lg sm:text-xl md:text-2xl font-serif font-bold text-gray-900 uppercase tracking-wide" style="font-family: 'Times New Roman', Times, serif;">
+          Projet de modules de formation<br>proposés
+        </h2>
+      </div>
 
+      <!-- Logo Destra (AICS) -->
+      <div class="w-full md:w-1/4 flex justify-center md:justify-end">
+        <img src="img/logo-aics.png" alt="Agenzia Italiana per la Cooperazione allo Sviluppo" class="h-16 sm:h-20 md:h-24 object-contain">
+      </div>
+
+    </div>
+  </div>
   <!-- En-tête principal -->
   <header class="african-pattern-banner text-white border-b-4 border-senegal-gold shadow-lg">
     <div class="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8">
@@ -313,20 +335,21 @@
           <div class="flex items-center justify-between border-b pb-3">
             <div class="flex items-center gap-2">
               <span class="w-3 h-3 rounded-full bg-red-600 animate-pulse"></span>
-              <h4 class="font-bold text-sm text-gray-900">Vidéo d'Aide Ciblée</h4>
+              <!-- Ho sostituito il testo precedente con questo -->
+              <h4 class="font-bold text-sm text-gray-900">Tutoriel Vidéo - Modulo 1</h4>
             </div>
           </div>
           <div class="relative w-full aspect-video rounded-xl overflow-hidden bg-black shadow-inner border border-gray-800">
-            <iframe id="video-frame-1" class="w-full h-full" src="https://www.youtube-nocookie.com/embed/VnSfRqpFEYM?start=15&enablejsapi=1" title="Google Classroom Tutoriel Français" frameborder="0" allowfullscreen></iframe>
+            <iframe id="video-frame-1" class="w-full h-full" src="https://www.youtube-nocookie.com/embed/mpKbKwcNQ4w?start=110&enablejsapi=1" title="Google Classroom Tutoriel Français" frameborder="0" allowfullscreen></iframe>
           </div>
           <div class="space-y-2">
             <div class="text-xs font-bold text-gray-700"><span>⏱️ Cliquez sur un moment précis :</span></div>
             <div class="space-y-1.5 text-xs">
-              <button onclick="setVideoTime(1, 'VnSfRqpFEYM', 15)" class="w-full text-left p-2 rounded-lg bg-gray-50 hover:bg-emerald-50 border flex justify-between transition"><span>📍 <strong>0:15</strong> - Connexion à Classroom</span><span class="text-emerald-600">Voir ▶</span></button>
-              <button onclick="setVideoTime(1, 'VnSfRqpFEYM', 55)" class="w-full text-left p-2 rounded-lg bg-gray-50 hover:bg-emerald-50 border flex justify-between transition"><span>📍 <strong>0:55</strong> - Créer le cours</span><span class="text-emerald-600">Voir ▶</span></button>
-              <button onclick="setVideoTime(1, 'VnSfRqpFEYM', 125)" class="w-full text-left p-2 rounded-lg bg-gray-50 hover:bg-emerald-50 border flex justify-between transition"><span>📍 <strong>2:05</strong> - Inviter des élèves</span><span class="text-emerald-600">Voir ▶</span></button>
-              <button onclick="setVideoTime(1, 'VnSfRqpFEYM', 220)" class="w-full text-left p-2 rounded-lg bg-gray-50 hover:bg-emerald-50 border flex justify-between transition"><span>📍 <strong>3:40</strong> - Sécuriser le Flux</span><span class="text-emerald-600">Voir ▶</span></button>
-              <button onclick="setVideoTime(1, 'VnSfRqpFEYM', 345)" class="w-full text-left p-2 rounded-lg bg-gray-50 hover:bg-emerald-50 border flex justify-between transition"><span>📍 <strong>5:45</strong> - Google Calendar</span><span class="text-emerald-600">Voir ▶</span></button>
+              <button onclick="setVideoTime(1, 'mpKbKwcNQ4w', 110)" class="w-full text-left p-2 rounded-lg bg-gray-50 hover:bg-emerald-50 border flex justify-between transition"><span>📍 <strong>1:50</strong> - Se connecter correctement</span><span class="text-emerald-600">Voir ▶</span></button>
+              <button onclick="setVideoTime(1, 'mpKbKwcNQ4w', 159)" class="w-full text-left p-2 rounded-lg bg-gray-50 hover:bg-emerald-50 border flex justify-between transition"><span>📍 <strong>2:39</strong> - Créer un cours</span><span class="text-emerald-600">Voir ▶</span></button>
+              <button onclick="setVideoTime(1, 'mpKbKwcNQ4w', 610)" class="w-full text-left p-2 rounded-lg bg-gray-50 hover:bg-emerald-50 border flex justify-between transition"><span>📍 <strong>10:10</strong> - Inviter les élèves</span><span class="text-emerald-600">Voir ▶</span></button>
+              <button onclick="setVideoTime(1, 'mpKbKwcNQ4w', 230)" class="w-full text-left p-2 rounded-lg bg-gray-50 hover:bg-emerald-50 border flex justify-between transition"><span>📍 <strong>3:50</strong> - Gérer la communication (Le Flux)</span><span class="text-emerald-600">Voir ▶</span></button>
+              <button onclick="setVideoTime(1, 'mpKbKwcNQ4w', 466)" class="w-full text-left p-2 rounded-lg bg-gray-50 hover:bg-emerald-50 border flex justify-between transition"><span>📍 <strong>7:46</strong> - Dates limite (Alternative Agenda)</span><span class="text-emerald-600">Voir ▶</span></button>
             </div>
           </div>
         </div>
